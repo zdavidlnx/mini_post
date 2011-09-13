@@ -18,6 +18,7 @@ end
 
 gem 'jquery-rails'
 
+# Añadido los grupos development y test para sustituir los test por Rspec
 group :development do
   gem 'rspec-rails', '2.6.1'
 end
