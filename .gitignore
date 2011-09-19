@@ -3,5 +3,10 @@ db/*.sqlite3
 log/*.log
 tmp/
 .sass-cache/
+<<<<<<< HEAD
 .idea/
 .idea/**/*
+=======
+.idea/**/*
+.idea/
+>>>>>>> af46b48ee29f5501738fa83f441f39d9100ec460
