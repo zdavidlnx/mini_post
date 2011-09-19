@@ -5,4 +5,8 @@ class PagesController < ApplicationController
   def contact
   end
 
+  # Acción about
+  def about
+  end
+
 end
