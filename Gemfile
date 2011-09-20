@@ -18,6 +18,7 @@ end
 
 gem 'jquery-rails'
 
+# Añadido los grupos development y test para sustituir los test por Rspec
 group :development do
   gem 'rspec-rails', '2.6.1'
 end
@@ -25,6 +26,8 @@ end
 group :test do
   gem 'rspec-rails', '2.6.1'
   gem 'webrat', '0.7.3'
+  gem 'spork', '0.9.0.rc8'
+
 end
 
 # Use unicorn as the web server
