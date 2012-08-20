@@ -5,6 +5,7 @@ class PagesController < ApplicationController
 
   def contact
     @title = "Contact"
+    hola = "hola"
   end
 
   # Acción about
